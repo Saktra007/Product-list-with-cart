@@ -3,13 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product List with Cart</title>
+    <title>Dessert Delight |</title>
+    <meta name="title" content="Dessert Delight | Product List" />
+    <meta
+      name="description"
+      content="Order the best desserts online! From Tiramisu to Baklava, explore our delicious selection and get it delivered to your door."
+    />
+    <meta
+      name="keywords"
+      content="dessert, order food, cakes, sweeet treats, dessert delivery"
+    />
+    <meta name="author" content="Saktra" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta
+      property="og:title"
+      content="Dessert Delight | Order Your Favorite Sweet Treats"
+    />
+    <meta
+      property="og:description"
+      content="Explore our dessert menu and satisfy your sweet tooth. Quick and easy ordering!"
+    />
+    <meta property="og:image" content="./assets/image/thumbnail.jpg" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Dessert Delight | Order Online" />
+    <meta
+      property="twitter:description"
+      content="Best desserts in town .Order now!"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https:/fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/image/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/image/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/image/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/image/site.webmanifest" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -20,8 +67,9 @@
     <main class="container">
       <section class="products-section">
         <h1 class="main-title">Desserts</h1>
-        <div class="product-grid" id="product-grid"></div>
-        <p>Loading products...</p>
+        <div class="product-grid" id="product-grid">
+          <p>Loading products...</p>
+        </div>
       </section>
 
       <aside class="cart-container">
@@ -44,6 +92,17 @@
         </div>
       </aside>
     </main>
+    <div id="order-modal" class="modal hidden">
+      <div class="modal-content">
+        <i class="fa-circle-check fa-solid fa-3x"></i>
+        <h1>Order Confirmed</h1>
+        <p>We hope you enjoy your food!</p>
+        <div id="order-summary"></div>
+        <button id="start-new-order" class="confirm-btn">
+          Start New Order
+        </button>
+      </div>
+    </div>
     <script type="module" src="./assets/js/app.js"></script>
   </body>
 </html>
