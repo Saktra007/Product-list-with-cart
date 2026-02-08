@@ -70,8 +70,7 @@ This project uses a custom color palette defined in CSS variables for easy maint
 ```bash
 git clone https://github.com/YOUR_USERNAME/php_user_login_system.git
 ```
-
- 2.Open with a Local Server: Since this project uses JavaScript Modules, you must run it through a server (like VS Code's "Live Server" extension) to avoid CORS policy restrictions.
+2. Open with a Local Server: Since this project uses JavaScript Modules, you must run it through a server (like VS Code's "Live Server" extension) to avoid CORS policy restrictions.
 
 ---
 
