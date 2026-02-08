@@ -6,7 +6,7 @@ A modern, high-performance dessert ordering landing page built with a focus on c
 
 ## 🚀 Live Demo
 
-**Link:** [https://your-github-username.github.io/your-repo-name/](https://your-github-username.github.io/your-repo-name/)
+**Link:** https://dessert-delight-one.vercel.app/
 
 ---
 
@@ -55,11 +55,11 @@ A modern, high-performance dessert ordering landing page built with a focus on c
 
 This project uses a custom color palette defined in CSS variables for easy maintenance:
 
--**Red** (Primary): #c73b0f
+- **Red** (Primary): #c73b0f
 
--**Green** (Success): #1ea94c
+- **Green** (Success): #1ea94c
 
--**Rose** (Neutrals): From #fcf8f6 (light) to #260f08 (dark)
+- **Rose** (Neutrals): From #fcf8f6 (light) to #260f08 (dark)
 
 ---
 
@@ -70,8 +70,7 @@ This project uses a custom color palette defined in CSS variables for easy maint
 ```bash
 git clone https://github.com/YOUR_USERNAME/php_user_login_system.git
 ```
-
-2.Open with a Local Server: Since this project uses JavaScript Modules, you must run it through a server (like VS Code's "Live Server" extension) to avoid CORS policy restrictions.
+2. Open with a Local Server: Since this project uses JavaScript Modules, you must run it through a server (like VS Code's "Live Server" extension) to avoid CORS policy restrictions.
 
 ---
 
@@ -79,8 +78,8 @@ git clone https://github.com/YOUR_USERNAME/php_user_login_system.git
 
 To ensure the best ranking and visibility:
 
--The page includes a unique title and meta description.
+- The page includes a unique title and meta description.
 
--Images use descriptive alt tags.
+- Images use descriptive alt tags.
 
--Favicons are provided for all devices (Apple, Android, and Browser).
+- Favicons are provided for all devices (Apple, Android, and Browser).
