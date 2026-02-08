@@ -21,7 +21,7 @@ export const products = [
     category: "Macaron",
     price: 8.0,
     image:
-      "https://images.pexels.com/photos/239581/pexels-photo-239581.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "https://tse2.mm.bing.net/th/id/OIP.-7A5OY-g69WRAj1ZAnW9rQHaEK?pid=Api&P=0&h=220",
   },
   {
     id: 4,
@@ -101,7 +101,7 @@ export const products = [
     category: "Mochi",
     price: 4.25,
     image:
-      "https://images.pexels.com/photos/6662822/pexels-photo-6662822.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "https://tse2.mm.bing.net/th/id/OIP.TDs7iMhUEs4l7As9XgRe1QHaHa?pid=Api&P=0&h=220",
   },
   {
     id: 14,
